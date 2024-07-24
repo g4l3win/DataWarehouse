@@ -1,0 +1,138 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>cobaETLanalysis</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>KsC/CqPry0TPJki7hLDYJxiqm28=22/06/2024 22:31:4813/06/2024 14:38:03</TimeStamp>
+        <ID>
+          <String>ETL</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Aj4NxsZTTBhLKa9vcOIbpRT2ZgM=22/06/2024 22:32:4522/06/2024 22:32:45</TimeStamp>
+        <ID>
+          <String>ETLConstellation</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FAGFQjPXO4lAct0kSSkyzvAK6xY=22/06/2024 22:36:5422/06/2024 22:36:29</TimeStamp>
+        <ID>
+          <String>Dimensi Product For Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YYHyURaAJtG/DWUkwQ6tb/vx1y8=22/06/2024 22:37:3722/06/2024 22:37:37</TimeStamp>
+        <ID>
+          <String>Dimensi Customer2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jHWV5C+ksosbhJaZv/f/WK25GCg=22/06/2024 22:37:5122/06/2024 22:37:51</TimeStamp>
+        <ID>
+          <String>Dimensi Waktu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>xz0N9dXVASqr2gjJiYcI3NAUoLo=22/06/2024 22:38:0322/06/2024 22:38:03</TimeStamp>
+        <ID>
+          <String>Dimensi Store</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ho+kV1wiPPMR9UhA6V2UD/RLjyg=22/06/2024 22:38:1922/06/2024 22:38:19</TimeStamp>
+        <ID>
+          <String>Dimensi Sales Order Detail</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DrwrpAWxKbWmVgJ/C929uVEVgYQ=22/06/2024 22:38:5822/06/2024 22:38:58</TimeStamp>
+        <ID>
+          <String>Dim Product1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>19TmfUQtHYu/zD9f2Q260lEXK+Q=22/06/2024 22:39:1622/06/2024 22:39:16</TimeStamp>
+        <ID>
+          <String>Dim Bill Of Material1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>l5H/C0n+kVSsiOMQ6A7Aojr7tEQ=22/06/2024 22:39:3622/06/2024 22:39:36</TimeStamp>
+        <ID>
+          <String>Dim Location1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XHokusqGFVji4bo+IyekFoapZQ0=22/06/2024 22:39:5022/06/2024 22:39:50</TimeStamp>
+        <ID>
+          <String>Dim Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hdt6kkvRviJutgBUijw5189dVyk=22/06/2024 22:40:0122/06/2024 22:40:01</TimeStamp>
+        <ID>
+          <String>Dim Vendor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fvlxkOG4Ku7EynGOVCNYQzZWc7k=22/06/2024 22:40:1622/06/2024 22:40:16</TimeStamp>
+        <ID>
+          <String>Dim Ship Method</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CdCeUvIrKu+Jsed7iE3UVoY9K98=22/06/2024 22:40:3322/06/2024 22:40:33</TimeStamp>
+        <ID>
+          <String>Dim Purchase Order Detail</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>7CsQz9vq6jsPoYCHoRL9tLyE54o=22/06/2024 22:40:5122/06/2024 22:40:51wh4q6N0Sb70K7yRufmWqe2tQvv4=22/06/2024 22:40:5122/06/2024 22:40:51</TimeStamp>
+        <ID>
+          <String>ETLConstellation</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>XioqDFgSzPmTDxXsX52l4miKdxU=28/05/2024 15:52:4128/05/2024 15:52:41</TimeStamp>
+      <ID>
+        <String>cobaETLanalysis</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-06-22T15:41:20.38Z</LastDeployed>
+</DeploymentSnapshot>
